@@ -118,7 +118,6 @@ def evaluate(results, accuracy, f1):
     # Tune the subplot layout
     # Refer - https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.subplots_adjust.html for more details on the arguments
     pl.subplots_adjust(left = 0.125, right = 1.2, bottom = 0.1, top = 0.9, wspace = 0.2, hspace = 0.3)    
-    pl.tight_layout()
     pl.show()
     
 
